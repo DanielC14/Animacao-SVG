@@ -7,138 +7,129 @@
 
     <style>
         @font-face {
-			font-family: PPorto;
-			src: url('PortoSansStencil-Bold.otf');
-		}
+            font-family: PPorto;
+            src: url('fonts/PortoSansStencil-Bold.otf');
+        }
     </style>
 </head>
+
 <body style="background-color: rgb(188,190,192);">
 
+    <svg width="1880px" height="930px">
+
+        <image xlink:href="img/PPorto.png" opacity="0" width="386px" x="20" y="20">
+            <animate attributeName="opacity" from="0" to="1" begin="19s" dur="2s" fill="freeze"></animate>
+        </image>
+
+        <text x="960px" y="477px" text-anchor="middle" rotate="0" alignment-baseline="middle" font-size="1" font-family="PPorto">ESMAD
+            <animate attributeName="font-size" from="1" to="150" begin="1s" dur="2s" fill="freeze"></animate>
+            <animate attributeName="rotate" from="0" to="360" begin="1s" dur="2s" fill="freeze"></animate>
+            <animate attributeName="y" from="477px" to="90px" begin="4s" dur="2s" fill="freeze"></animate>
+
+            <animate attributeName="y" from="90px" to="477px" begin="19s" dur="2s" fill="freeze"></animate>
+        </text>
+
+        <text x="960px" y="650px" text-anchor="middle" fill-opacity="0" alignment-baseline="middle" font-size="50" font-family="PPorto">
+            Escola Superior de Media Artes e Design
+            <animate attributeName="fill-opacity" from="0" to="1" begin="20s" dur="2s" fill="freeze"></animate>
+        </text>
+
+        <line x1="550px" y1="675px" x2="1376px" y2="675px" stroke="black" stroke-dasharray="2000" stroke-dashoffset="2000" stroke-width="8">
+            <animate attributeName="stroke-dashoffset" from="2000" to="0" begin="20s" dur="2s" fill="freeze"></animate>
+            <animate attributeName="stroke-opacity" from="0" to="1" begin="20s" dur="2s" fill="freeze"></animate>
+        </line>
+
+        <image xlink:href="img/img1.jpg" x="650px" opacity="0" y="0" width="600px">
+            <animate attributeName="y" from="0px" to="250px" begin="7s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="opacity" from="0" to="1" begin="7s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="y" from="250px" to="350px" begin="7.5s" dur="1500ms" fill="freeze"></animate>
+            <animate attributeName="y" from="350px" to="702px" begin="9s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="opacity" from="1" to="0" begin="9s" dur="500ms" fill="freeze"></animate>
+        </image>
+
+        <image xlink:href="img/img2.jpg" x="-600px" y="277px" opacity="0" width="600px">
+            <animate attributeName="x" from="-600px" to="600px" begin="10s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="opacity" from="0" to="1" begin="10s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="x" from="600px" to="700px" begin="10.5s" dur="1500ms" fill="freeze"></animate>
+            <animate attributeName="x" from="700px" to="1900px" begin="12s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="opacity" from="1" to="0" begin="12s" dur="500ms" fill="freeze"></animate>
+        </image>
+
+        <image xlink:href="img/img3.jpg" x="650px" opacity="0" y="702px" width="600px">
+            <animate attributeName="y" from="702px" to="300px" begin="13s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="opacity" from="0" to="1" begin="13s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="y" from="300px" to="200px" begin="13.5s" dur="1500ms" fill="freeze"></animate>
+            <animate attributeName="y" from="200px" to="-200px" begin="15s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="opacity" from="1" to="0" begin="15s" dur="500ms" fill="freeze"></animate>
+        </image>
+
+        <image xlink:href="img/img4.jpg" x="1909px" y="277px" opacity="0" width="600px">
+            <animate attributeName="x" from="1909px" to="700px" begin="16s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="opacity" from="0" to="1" begin="16s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="x" from="700px" to="600px" begin="16.5s" dur="1500ms" fill="freeze"></animate>
+            <animate attributeName="x" from="600px" to="-300px" begin="18s" dur="500ms" fill="freeze"></animate>
+            <animate attributeName="opacity" from="1" to="0" begin="18s" dur="500ms" fill="freeze"></animate>
+        </image>
+
+        <image xlink:href="img/img2.jpg" x="-300px" y="400" width="200px">
+            <animate attributeName="x" from="-300px" to="100" begin="21s" dur="100ms" fill="freeze"></animate>
+            <animate attributeName="width" from="200px" to="500px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
+            <animate attributeName="width" from="500px" to="200px" begin="mouseleave" dur="300ms" fill="freeze"></animate>
+        </image>
+
+        <image xlink:href="img/img1.jpg" x="-300px" y="200" width="200px">
+            <animate attributeName="x" from="-300px" to="100" begin="21s" dur="100ms" fill="freeze"></animate>
+            <animate attributeName="width" from="200px" to="500px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
+            <animate attributeName="width" from="500px" to="200px" begin="mouseleave" dur="300ms" fill="freeze"></animate>
+        </image>
+
+        <image xlink:href="img/img4.jpg" x="1902px" y="400" width="200px">
+            <animate attributeName="x" from="1902px" to="1600" begin="21s" dur="100ms" fill="freeze"></animate>
+            <animate attributeName="width" from="200px" to="500px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
+            <animate attributeName="x" from="1600px" to="1350px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
+            <animate attributeName="width" from="500px" to="200px" begin="mouseleave" dur="300ms" fill="freeze"></animate>
+            <animate attributeName="x" from="1350px" to="1600" begin="mouseleave" dur="300ms" fill="freeze"></animate>
+        </image>
+
+        <image xlink:href="img/img3.jpg" x="1902px" y="200" width="200px">
+            <animate attributeName="x" from="1902px" to="1600" begin="21s" dur="100ms" fill="freeze"></animate>
+            <animate attributeName="width" from="200px" to="500px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
+            <animate attributeName="x" from="1600px" to="1350px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
+            <animate attributeName="width" from="500px" to="200px" begin="mouseleave" dur="300ms" fill="freeze"></animate>
+            <animate attributeName="x" from="1350px" to="1600" begin="mouseleave" dur="300ms" fill="freeze"></animate>
+        </image>
+
+        <image xlink:href="img/cam.png" opacity="0" rotate="0" x="675px" y="753" width="150px">
+            <animate attributeName="opacity" from="0" to="1" begin="22s" dur="150ms" fill="freeze"></animate>
+            <animate attributeName="width" from="150" to="200" begin="22s" dur="200ms"></animate>
+
+            <animateTransform attributeName="transform" type="rotate" from="0 746 818" to="30 746 818" begin="mouseenter" dur="300ms"
+                fill="freeze"></animateTransform>
+            <animateTransform attributeName="transform" type="rotate" from="30 746 818" to="0 746 818" begin="mouseleave" dur="300ms"
+                fill="freeze"></animateTransform>
+        </image>
+        <image xlink:href="img/arte.png" opacity="0" rotate="0" x="875px" y="753" width="150px">
+            <animate attributeName="opacity" from="0" to="1" begin="22s" dur="150ms" fill="freeze"></animate>
+            <animate attributeName="width" from="150" to="200" begin="22s" dur="200ms"></animate>
+
+            <animateTransform attributeName="transform" type="rotate" from="0 953 845" to="30 953 845" begin="mouseenter" dur="300ms"
+                fill="freeze"></animateTransform>
+            <animateTransform attributeName="transform" type="rotate" from="30 953 845" to="0 953 845" begin="mouseleave" dur="300ms"
+                fill="freeze"></animateTransform>
+        </image>
+        <image xlink:href="img/code.png" opacity="0" transform="rotate(0)" x="1075px" y="753" width="150px">
+            <animate attributeName="opacity" from="0" to="1" begin="22s" dur="150ms" fill="freeze"></animate>
+            <animate attributeName="width" from="150" to="200" begin="22s" dur="200ms"></animate>
+
+            <animateTransform attributeName="transform" type="rotate" from="0 1155 836" to="30 1155 836" begin="mouseenter" dur="300ms"
+                fill="freeze"></animateTransform>
+            <animateTransform attributeName="transform" type="rotate" from="30 1155 836" to="0 1155 836" begin="mouseleave" dur="300ms"
+                fill="freeze"></animateTransform>
+        </image>
 
 
 
-<svg width="1880px" height="930px">
-
-    <image xlink:href="img/PPorto.png" opacity="0" width="386px" x="20" y="20">
-        <animate attributeName="opacity" from="0" to="1" begin="19s" dur="2s" fill="freeze"></animate>
-    </image>
-
-    <text x="960px" y="477px" text-anchor="middle" rotate="0" alignment-baseline="middle" font-size="1" font-family="PPorto">ESMAD
-        <animate attributeName="font-size" from="1" to="150" begin="1s" dur="2s" fill="freeze"></animate>
-        <animate attributeName="rotate" from="0" to="360" begin="1s" dur="2s" fill="freeze"></animate>
-        <animate attributeName="y" from="477px" to="90px" begin="4s" dur="2s" fill="freeze"></animate>
-
-        <animate attributeName="y" from="90px" to="477px" begin="19s" dur="2s" fill="freeze"></animate>
-    </text>
-
-
-
-
-
-
-
-    <text x="960px" y="650px" text-anchor="middle" fill-opacity="0" alignment-baseline="middle" font-size="50" font-family="PPorto">
-        Escola Superior de Media Artes e Design
-        <animate attributeName="fill-opacity" from="0" to="1" begin="20s" dur="2s" fill="freeze"></animate>
-    </text>
-
-    <line x1="550px" y1="675px" x2="1376px" y2="675px" stroke="black" stroke-dasharray="2000" stroke-dashoffset="2000" stroke-width="8">
-        <animate attributeName="stroke-dashoffset" from="2000" to="0" begin="20s" dur="2s" fill="freeze"></animate>
-        <animate attributeName="stroke-opacity" from="0" to="1" begin="20s" dur="2s" fill="freeze"></animate>
-    </line>
-
-    <image xlink:href="img/img1.jpg" x="650px" opacity="0" y="0" width="600px">
-        <animate attributeName="y" from="0px" to="250px" begin="7s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="opacity" from="0" to="1" begin="7s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="y" from="250px" to="350px" begin="7.5s" dur="1500ms" fill="freeze"></animate>
-        <animate attributeName="y" from="350px" to="702px" begin="9s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="opacity" from="1" to="0" begin="9s" dur="500ms" fill="freeze"></animate>
-    </image>
-
-    <image xlink:href="img/img2.jpg" x="-600px" y="277px" opacity="0" width="600px">
-        <animate attributeName="x" from="-600px" to="600px" begin="10s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="opacity" from="0" to="1" begin="10s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="x" from="600px" to="700px" begin="10.5s" dur="1500ms" fill="freeze"></animate>
-        <animate attributeName="x" from="700px" to="1900px" begin="12s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="opacity" from="1" to="0" begin="12s" dur="500ms" fill="freeze"></animate>
-    </image>
-
-    <image xlink:href="img/img3.jpg" x="650px" opacity="0" y="702px" width="600px">
-        <animate attributeName="y" from="702px" to="300px" begin="13s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="opacity" from="0" to="1" begin="13s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="y" from="300px" to="200px" begin="13.5s" dur="1500ms" fill="freeze"></animate>
-        <animate attributeName="y" from="200px" to="-200px" begin="15s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="opacity" from="1" to="0" begin="15s" dur="500ms" fill="freeze"></animate>
-    </image>
-
-    <image xlink:href="img/img4.jpg" x="1909px" y="277px" opacity="0" width="600px">
-        <animate attributeName="x" from="1909px" to="700px" begin="16s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="opacity" from="0" to="1" begin="16s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="x" from="700px" to="600px" begin="16.5s" dur="1500ms" fill="freeze"></animate>
-        <animate attributeName="x" from="600px" to="-300px" begin="18s" dur="500ms" fill="freeze"></animate>
-        <animate attributeName="opacity" from="1" to="0" begin="18s" dur="500ms" fill="freeze"></animate>
-    </image>
-
-
-    
-
-    <image xlink:href="img/img2.jpg" x="-300px" y="400" width="200px">
-        <animate attributeName="x" from="-300px" to="100" begin="21s" dur="100ms" fill="freeze"></animate>
-        <animate attributeName="width" from="200px" to="500px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
-        <animate attributeName="width" from="500px" to="200px" begin="mouseleave" dur="300ms" fill="freeze"></animate>
-    </image>
-
-    <image xlink:href="img/img1.jpg" x="-300px" y="200" width="200px">
-        <animate attributeName="x" from="-300px" to="100" begin="21s" dur="100ms" fill="freeze"></animate>
-        <animate attributeName="width" from="200px" to="500px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
-        <animate attributeName="width" from="500px" to="200px" begin="mouseleave" dur="300ms" fill="freeze"></animate>
-    </image>
-
-    <image xlink:href="img/img4.jpg" x="1902px" y="400" width="200px">
-        <animate attributeName="x" from="1902px" to="1600" begin="21s" dur="100ms" fill="freeze"></animate>
-        <animate attributeName="width" from="200px" to="500px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
-        <animate attributeName="x" from="1600px" to="1350px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
-        <animate attributeName="width" from="500px" to="200px" begin="mouseleave" dur="300ms" fill="freeze"></animate>
-        <animate attributeName="x" from="1350px" to="1600" begin="mouseleave" dur="300ms" fill="freeze"></animate>
-    </image>
-
-    <image xlink:href="img/img3.jpg" x="1902px" y="200" width="200px">
-        <animate attributeName="x" from="1902px" to="1600" begin="21s" dur="100ms" fill="freeze"></animate>
-        <animate attributeName="width" from="200px" to="500px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
-        <animate attributeName="x" from="1600px" to="1350px" begin="mouseenter" dur="300ms" fill="freeze"></animate>
-        <animate attributeName="width" from="500px" to="200px" begin="mouseleave" dur="300ms" fill="freeze"></animate>
-        <animate attributeName="x" from="1350px" to="1600" begin="mouseleave" dur="300ms" fill="freeze"></animate>
-    </image>
-
-
-
-
-
-    <image xlink:href="img/cam.png" opacity="0" rotate="0" x="675px" y="753" width="150px">
-        <animate attributeName="opacity" from="0" to="1" begin="22s" dur="150ms" fill="freeze"></animate>
-        <animate attributeName="width" from="150" to="200" begin="22s" dur="200ms" ></animate>
-
-        <animateTransform attributeName="transform" type="rotate" from="0 746 818" to="30 746 818" begin="mouseenter" dur="300ms" fill="freeze"></animateTransform>
-        <animateTransform attributeName="transform" type="rotate" from="30 746 818" to="0 746 818" begin="mouseleave" dur="300ms" fill="freeze"></animateTransform>
-    </image>
-    <image xlink:href="img/arte.png" opacity="0" rotate="0" x="875px" y="753" width="150px">
-        <animate attributeName="opacity" from="0" to="1" begin="22s" dur="150ms" fill="freeze"></animate>
-        <animate attributeName="width" from="150" to="200" begin="22s" dur="200ms" ></animate>
-
-        <animateTransform attributeName="transform" type="rotate" from="0 953 845" to="30 953 845" begin="mouseenter" dur="300ms" fill="freeze"></animateTransform>
-        <animateTransform attributeName="transform" type="rotate" from="30 953 845" to="0 953 845" begin="mouseleave" dur="300ms" fill="freeze"></animateTransform>
-    </image>
-    <image xlink:href="img/code.png" opacity="0" transform="rotate(0)" x="1075px" y="753" width="150px">
-        <animate attributeName="opacity" from="0" to="1" begin="22s" dur="150ms" fill="freeze"></animate>
-        <animate attributeName="width" from="150" to="200" begin="22s" dur="200ms" ></animate>
-
-        <animateTransform attributeName="transform" type="rotate" from="0 1155 836" to="30 1155 836" begin="mouseenter" dur="300ms" fill="freeze"></animateTransform>
-        <animateTransform attributeName="transform" type="rotate" from="30 1155 836" to="0 1155 836" begin="mouseleave" dur="300ms" fill="freeze"></animateTransform>
-    </image>
-
-
-
-</svg>
+    </svg>
 
 </body>
 

@@ -8,7 +8,9 @@ SVG Animation developed for the Graphic animation course of the Technologies and
 
 ## Resources Used
 
-* Images taken by myself
+* Pictures taken by myself
+* Icons taken from Google
+* Font - PortoSansStencil-Bold
 
 ## Screenshot
 

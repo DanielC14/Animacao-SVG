@@ -1,6 +1,6 @@
 # SVG Animation
 
-SVG Animation developed for the Graphic Animation subject of the Technologies and Information Systems course for the Web licensed at ESMAD (School of Arts and Design Media).
+SVG Animation developed for the Graphic Animation subject of the Technologies and Information Systems for the Web course, licensed at ESMAD (School of Arts and Design Media).
 
 ## Technologies Used
 

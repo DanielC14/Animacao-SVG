@@ -2,6 +2,10 @@
 
 SVG Animation developed for the Graphic Animation subject of the Technologies and Information Systems for the Web course, licensed at ESMAD (School of Arts and Design Media).
 
+Made by:
+* [DanielC14](https://github.com/DanielC14)
+* [FilipaNora](https://github.com/FilipaNora)
+
 ## Technologies Used
 
 * HTML \<svg\>
